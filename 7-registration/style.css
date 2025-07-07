@@ -1,0 +1,187 @@
+/* write your css here */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #e9e0f947 5%,
+    transparent 100%
+  );
+}
+
+.main {
+  width: 550px;
+  margin: 64px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.logo {
+  width: 64px;
+}
+
+.box {
+  width: 100%;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #e9ecef;
+  /* box-shadow: 0px 0px 2px 2px #e9ecef; */
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+
+.box:focus {
+  outline: none;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #495057;
+}
+
+.outer-box {
+  background-color: white;
+  padding: 48px;
+  width: 100%;
+  border: 2px solid #e9ecef;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 2px 2px #e9ecef; */
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.check-pass {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.check-pass div {
+  display: flex;
+  gap: 12px;
+}
+
+.check-pass a {
+  color: #4848e0;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+  margin-bottom: 48px;
+  cursor: pointer;
+  padding: 12px 24px;
+}
+
+.btn-s button {
+  width: 100%;
+  color: white;
+  height: 38px;
+  background-color: #4848e0;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.compl {
+  display: flex;
+  gap: 28px;
+}
+
+.compl p {
+  color: #495057;
+  font-weight: 600;
+}
+
+.line {
+  margin-top: 10px;
+  width: 28%;
+  height: 50%;
+  border-top: 2px solid #e9ecef;
+  /* border: 3px black solid; */
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 45%;
+}
+
+.icon-t {
+  width: 24px;
+}
+
+.color-t {
+  background-color: #009bec;
+}
+
+.color-b {
+  background-color: black;
+}
+
+.color-w {
+  background-color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.end {
+  color: #adb5bd;
+}
+
+.end a {
+  color: #4848e0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.check {
+  width: 18px;
+
+  height: 18px;
+  border: 2px #e9ecef8b;
+}
+
+.check-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.text {
+  color: #333;
+}
